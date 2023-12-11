@@ -30,8 +30,8 @@ function Navbar() {
             </Link>
           </li>
           <li>
-            <Link to="/servises" onClick={closeMobileMenu}>
-              Servises
+            <Link to="/services" onClick={closeMobileMenu}>
+              Services
             </Link>
           </li>
           <li>
@@ -40,7 +40,7 @@ function Navbar() {
             </Link>
           </li>
           <li>
-            <Link to="/signup" onClick={closeMobileMenu}>
+            <Link to="/sign-up" onClick={closeMobileMenu}>
             sign up
             </Link>
           </li>

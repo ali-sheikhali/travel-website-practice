@@ -14,7 +14,7 @@ function HeroSection() {
         <h1 className="text-white text-3xl font-bold">ADVENTURE AWAITS</h1>
         <p className="text-white font-bold" >What are you Waiting for?</p>
         <div className="flex md:w-5/12 mx-auto">
-        <Buttons className='text-white'>get start</Buttons>
+        <Buttons className='text-white'>Get start</Buttons>
         <Buttons className='text-white'>Watch Trailer  <i class="fa-solid fa-play ml-2"></i></Buttons>
        
         </div>
