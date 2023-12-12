@@ -12,8 +12,8 @@ function MobileNavbar({closeMobileMenu}) {
             </Link>
           </li>
           <li className='hover:bg-white hover:text-black py-4'>
-            <Link to="/servises" onClick={closeMobileMenu}>
-              Servises
+            <Link to="/services" onClick={closeMobileMenu}>
+              Services
             </Link>
           </li>
           <li className='hover:bg-white hover:text-black py-4'>
@@ -22,8 +22,10 @@ function MobileNavbar({closeMobileMenu}) {
             </Link>
           </li>
           <li className=' py-4'>
-            <Link to="/signup" onClick={closeMobileMenu}>
-             <Buttons>Sign Up</Buttons> 
+            <Link to="/sign-up" onClick={closeMobileMenu}>
+              <div className="w-5/12 mx-auto">
+             <Buttons >Sign Up</Buttons> 
+             </div>
             </Link>
           </li>
         </ul>

@@ -1,15 +1,13 @@
-import React from 'react'
-import Navbar from '../Navbar'
-import MobileNavbar from '../MobileNavbar'
-import Cards from '../Cards'
+import React from "react";
+import Footer from "../Footer";
+import Cards from "../Cards";
 function Services() {
   return (
     <div>
-        {/* <Navbar />
-        <MobileNavbar /> */}
-        <Cards />
+      <Cards />
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default Services
+export default Services;
